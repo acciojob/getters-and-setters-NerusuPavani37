@@ -32,13 +32,14 @@ class Teacher extends Person {
 		console.log(name + " is teaching");
 	}
 }
-
+let person = new Person("John", 25);
+console.log(person._name);
+person.setAge(30);
+console.log(person._age)
 let student=new Student("Pavani",24);
 student.study();
 let teacher = new Teacher("Accio", 50);
 teacher.teach();
-teacher.setAge(40);
-console.log(teacher._age);
 
 
 // Do not change the code below this line
