@@ -1,15 +1,15 @@
 //complete this code
 class Person {
 	constructor(name,age){
-		this.name=name;
-		this.age=age;
+		this._name=name;
+		this._age=age;
 	}
 
 	getName(){
-		return this.name;
+		return this._name;
 	}
 	setAge(age){
-		this.age=age;
+		this._age=age;
 	}
 }
 
@@ -38,7 +38,7 @@ student.study();
 let teacher = new Teacher("Accio", 50);
 teacher.teach();
 teacher.setAge(40);
-console.log(teacher.age);
+console.log(teacher._age);
 
 
 // Do not change the code below this line
